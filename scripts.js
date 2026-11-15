@@ -2995,7 +2995,7 @@ const Footer = () => /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MOD
       columnNumber: 7
     }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxDEV)(_Motion__WEBPACK_IMPORTED_MODULE_2__.MaskedLines, {
       as: "p",
-      lines: ["jenish"],
+      lines: ["CUBIQO"],
       className: "display select-none text-[31vw] leading-[0.8] tracking-[-0.05em] text-[#e7e3dc] lg:text-[27vw]",
       "x-file-name": "Footer",
       "x-line-number": "55",
@@ -3039,7 +3039,7 @@ const Footer = () => /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MOD
           "x-source-type": "computed",
           "x-source-editable": "false",
           children: new Date().getFullYear()
-        }, void 0, false), " jenish interior design"]
+        }, void 0, false), " CUBIQO interior design"]
       }, void 0, true, {
         fileName: _jsxFileName,
         lineNumber: 57,
@@ -3144,7 +3144,7 @@ const LogoMark = ({
   "x-id": "Logo_2_2",
   "x-dynamic": "false",
   children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("path", {
-    d: "M6 29V15a10 10 0 0 1 20 0v14",
+    d: "M16 3.5L27 9.8V22.2L16 28.5L5 22.2V9.8L16 3.5Z",
     "x-file-name": "Logo",
     "x-line-number": "3",
     "x-column": "4",
@@ -3156,7 +3156,7 @@ const LogoMark = ({
     lineNumber: 3,
     columnNumber: 5
   }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("path", {
-    d: "M19.5 11v9.5a4.5 4.5 0 0 1-9 0",
+    d: "M16 16V28.5M16 16L27 9.8M16 16L5 9.8",
     "x-file-name": "Logo",
     "x-line-number": "4",
     "x-column": "4",
@@ -3203,7 +3203,7 @@ const Logo = ({
     "x-component": "span",
     "x-id": "Logo_11_4",
     "x-dynamic": "false",
-    children: "jenish"
+    children: "CUBIQO"
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 11,
@@ -3723,7 +3723,7 @@ const Nav = () => {
         children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
           to: "/",
           "data-testid": "nav-logo",
-          "aria-label": "jenish home",
+          "aria-label": "CUBIQO home",
           children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxDEV)(_Logo__WEBPACK_IMPORTED_MODULE_7__.Logo, {
             "x-file-name": "Nav",
             "x-line-number": "36",
@@ -4807,7 +4807,7 @@ const Hero = () => {
             "x-dynamic": "false",
             children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.img, {
               src: _lib_data__WEBPACK_IMPORTED_MODULE_7__.IMAGES.hero,
-              alt: "Sunlit minimalist living room designed by jenish",
+              alt: "Sunlit minimalist living room designed by CUBIQO",
               style: {
                 x: imgX
               },
@@ -4936,7 +4936,7 @@ const Hero = () => {
           "x-component": "p",
           "x-id": "Hero_82_10",
           "x-dynamic": "false",
-          children: "jenish designs homes, workplaces and places to gather, with natural materials, honest proportions and a great deal of daylight."
+          children: "CUBIQO designs homes, workplaces and places to gather, with natural materials, honest proportions and a great deal of daylight."
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 82,
@@ -5378,7 +5378,7 @@ const Expand = () => {
         "x-dynamic": "false",
         children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.img, {
           src: _lib_data__WEBPACK_IMPORTED_MODULE_5__.IMAGES.restaurant,
-          alt: "Restaurant interior with plaster arches by jenish",
+          alt: "Restaurant interior with plaster arches by CUBIQO",
           style: {
             scale
           },
@@ -7580,7 +7580,7 @@ function Contact() {
         "x-dynamic": "false",
         children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__.jsxDEV)(_components_Motion__WEBPACK_IMPORTED_MODULE_7__.RevealImage, {
           src: _lib_data__WEBPACK_IMPORTED_MODULE_9__.IMAGES.dining,
-          alt: "Dining room with paper lantern by jenish",
+          alt: "Dining room with paper lantern by CUBIQO",
           className: "arch aspect-[3/4] w-full max-w-sm",
           "x-file-name": "Contact",
           "x-line-number": "53",
