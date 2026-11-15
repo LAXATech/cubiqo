@@ -4163,7 +4163,9 @@ const PageHeader = ({
   eyebrow,
   lines,
   intro,
-  testid
+  testid,
+  headingClassName,
+  introClassName
 }) => /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("header", {
   className: "shell pb-16 pt-40 sm:pt-52 lg:pb-24",
   "x-file-name": "Shared",
@@ -4233,7 +4235,7 @@ const PageHeader = ({
     lineNumber: 25,
     columnNumber: 5
   }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("div", {
-    className: "mt-10 grid gap-8 lg:grid-cols-12 lg:items-end",
+    className: introClassName ? "mt-10 flex flex-col gap-6" : "mt-10 grid gap-8 lg:grid-cols-12 lg:items-end",
     "x-file-name": "Shared",
     "x-line-number": "29",
     "x-column": "4",
@@ -4241,7 +4243,7 @@ const PageHeader = ({
     "x-id": "Shared_29_4",
     "x-dynamic": "false",
     children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("div", {
-      className: "lg:col-span-7",
+      className: introClassName ? "w-full" : "lg:col-span-7",
       "x-file-name": "Shared",
       "x-line-number": "30",
       "x-column": "6",
@@ -4254,7 +4256,7 @@ const PageHeader = ({
         delay: 0.25,
         lines: lines,
         testid: testid,
-        className: "display text-5xl leading-[0.92] sm:text-7xl lg:text-7xl",
+        className: headingClassName || "display text-5xl leading-[0.92] sm:text-7xl lg:text-7xl",
         "x-file-name": "Shared",
         "x-line-number": "31",
         "x-column": "8",
@@ -4272,7 +4274,7 @@ const PageHeader = ({
       columnNumber: 7
     }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(_Motion__WEBPACK_IMPORTED_MODULE_0__.FadeUp, {
       delay: 0.45,
-      className: "space-y-4 lg:col-span-5 lg:pb-2",
+      className: introClassName ? "space-y-4 max-w-xl" : "space-y-4 lg:col-span-5 lg:pb-2",
       "x-file-name": "Shared",
       "x-line-number": "33",
       "x-column": "6",
@@ -9287,19 +9289,27 @@ function Works() {
       index: "02",
       eyebrow: "Works",
       testid: "works-heading",
-      lines: ["Selected", /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxDEV)("span", {
-        className: "italic text-[var(--brass)]",
-        "x-file-name": "Works",
-        "x-line-number": "75",
-        "x-column": "88",
-        "x-component": "span",
-        "x-id": "Works_75_88",
-        "x-dynamic": "false",
-        children: "projects."
-      }, "i", false, {
+      headingClassName: "display mt-10 text-[11vw] leading-[0.92] sm:text-[9vw] lg:text-[7vw] whitespace-nowrap",
+      introClassName: "max-w-xl text-base font-light leading-relaxed text-stone-600 sm:text-lg mt-6",
+      lines: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxDEV)("span", {
+        children: ["Selected ", /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxDEV)("span", {
+          className: "italic text-[var(--brass)]",
+          "x-file-name": "Works",
+          "x-line-number": "75",
+          "x-column": "88",
+          "x-component": "span",
+          "x-id": "Works_75_88",
+          "x-dynamic": "false",
+          children: "projects."
+        }, "i", false, {
+          fileName: _jsxFileName,
+          lineNumber: 75,
+          columnNumber: 89
+        }, this)]
+      }, "l1", false, {
         fileName: _jsxFileName,
         lineNumber: 75,
-        columnNumber: 89
+        columnNumber: 88
       }, this)],
       intro: "A cross-section of homes, workplaces and hospitality spaces. Filter by the kind of work, then open any project for its story and materials.",
       "x-file-name": "Works",
