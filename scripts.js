@@ -3689,10 +3689,6 @@ const Nav = () => {
     damping: 30
   });
   (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__.useMotionValueEvent)(scrollY, "change", v => setSolid(v > 40));
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    document.body.style.overflow = open ? "hidden" : "";
-    return () => { document.body.style.overflow = ""; };
-  }, [open]);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => setOpen(false), [pathname]);
   return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__.Fragment, {
     children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_3__.motion.header, {
@@ -3942,9 +3938,8 @@ const Nav = () => {
           "x-dynamic": "false",
           children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
             to: l.path,
-            onClick: () => setOpen(false),
             "data-testid": `mobile-nav-link-${l.name.toLowerCase()}`,
-            className: "display flex items-baseline gap-4 border-b border-[var(--line)] py-4 text-4xl sm:text-5xl",
+            className: "display flex items-baseline gap-4 border-b border-[var(--line)] py-4 text-5xl",
             children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxDEV)("span", {
               className: "mono text-stone-400",
               "x-file-name": "Nav",
@@ -9053,7 +9048,7 @@ const ProjectDialog = ({
         lineNumber: 42,
         columnNumber: 11
       }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxDEV)("div", {
-        className: "flex flex-col justify-between gap-6 p-6 sm:p-8 md:p-12",
+        className: "flex flex-col justify-between gap-10 p-8 md:p-12",
         "x-file-name": "Works",
         "x-line-number": "43",
         "x-column": "10",
@@ -9084,7 +9079,7 @@ const ProjectDialog = ({
             columnNumber: 15
           }, undefined), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__.jsxDEV)(_components_ui_dialog__WEBPACK_IMPORTED_MODULE_4__.DialogTitle, {
             "data-testid": "project-dialog-title",
-            className: "display mt-4 text-3xl font-light leading-none sm:text-5xl md:text-6xl",
+            className: "display mt-4 text-5xl font-light leading-none md:text-6xl",
             "x-file-name": "Works",
             "x-line-number": "46",
             "x-column": "14",
