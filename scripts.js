@@ -7071,18 +7071,18 @@ __webpack_require__.r(__webpack_exports__);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
 
-const IMG = "https://static.prod-images.emergentagent.com/jobs/3b5aacc5-bb4f-4122-993b-2cecac6f1554/images/";
+const IMG = "images/";
 const IMAGES = {
-  hero: `${IMG}02d9d19cc35688f7370c2222a349e6eab382d3d2dc566459e4fece0933b773ae.jpeg`,
-  bedroom: `${IMG}440184c115345b29917b104f09b02d11b92374a3eaa692a46e8b921a7e0870a8.jpeg`,
-  kitchen: `${IMG}3ef8d1ff16c1cd919e75690c0dc55840224a367b4262b0024dc66262c4f7995d.jpeg`,
-  dining: `${IMG}0d2996d73e255479707983d4d6e5c2d0cb037512b084fc6fceca69be55e83833.jpeg`,
-  office: `${IMG}a7d65d30f0f670ea8e92464c5af93abe25f385c40e9190b905d012f98a96f43b.jpeg`,
-  lobby: `${IMG}2295aee04d9b05cfcb473eec2de0741b2a9965d41529b3bafc6dc76e1c158547.jpeg`,
-  restaurant: `${IMG}d4a28a1806fc799a1fee2176009fae7fecfe309abac6e3387887143b7df43248.jpeg`,
-  hotel: `${IMG}c187357d8a05ca097411be6047562cbc420873b3430389ac9b7a8b734f2eeadd.jpeg`,
-  cafe: `${IMG}b61924acf3239aed2e87ab43b64d37166f3c135ab1a320fdd21555589824a1c1.jpeg`,
-  materials: `${IMG}b62178e874c99b08e8bf869e7502bf51a770cac3417c9e7541b2a76b5dfd7686.jpeg`
+  hero: `${IMG}02d9d19cc35688f7370c2222a349e6eab382d3d2dc566459e4fece0933b773ae.webp`,
+  bedroom: `${IMG}440184c115345b29917b104f09b02d11b92374a3eaa692a46e8b921a7e0870a8.webp`,
+  kitchen: `${IMG}3ef8d1ff16c1cd919e75690c0dc55840224a367b4262b0024dc66262c4f7995d.webp`,
+  dining: `${IMG}0d2996d73e255479707983d4d6e5c2d0cb037512b084fc6fceca69be55e83833.webp`,
+  office: `${IMG}a7d65d30f0f670ea8e92464c5af93abe25f385c40e9190b905d012f98a96f43b.webp`,
+  lobby: `${IMG}2295aee04d9b05cfcb473eec2de0741b2a9965d41529b3bafc6dc76e1c158547.webp`,
+  restaurant: `${IMG}d4a28a1806fc799a1fee2176009fae7fecfe309abac6e3387887143b7df43248.webp`,
+  hotel: `${IMG}c187357d8a05ca097411be6047562cbc420873b3430389ac9b7a8b734f2eeadd.webp`,
+  cafe: `${IMG}b61924acf3239aed2e87ab43b64d37166f3c135ab1a320fdd21555589824a1c1.webp`,
+  materials: `${IMG}b62178e874c99b08e8bf869e7502bf51a770cac3417c9e7541b2a76b5dfd7686.webp`
 };
 
 // Sample contact details: replace with the studio's real ones.
